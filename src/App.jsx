@@ -1,8 +1,10 @@
+import Header from "./header.jsx";
+import React from "react";
 const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline bg-amber-300">
-      React + TailwindCSS
-    </h1>
+    <>
+      <Header />
+    </>
   );
 };
 
